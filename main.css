@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo,
+#contact h3,
+#contact h4{
+    font-family: 'Peralta', serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+h3{
+    font-size: x-large;
+    font-family: 'Hedvig Letters Serif', serif;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(3, 56, 124);
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header,
+button{
+    padding: 36px 0;
+    background-color: rgb(3, 56, 124);
+    color: rgb(226, 226, 226);
+    font-family: 'Peralta', serif;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 66px;
+    margin-bottom: 50px;
+}
+
+#about .container img{
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+header a{
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    font-family: 'Peralta', serif;
+}
+
+.dunkoffwhite, .jordan4redthunder, .jordan3unc{
+    display: flex;
+    align-items: center;
+}
+
+.textsaboutshoes h3{
+    margin-bottom: 50px;
+}
+
+.dunkoffwhite img, .jordan4redthunder img, .jordan3unc img{
+    margin-right: 50px;
+}
+
+.contact-metods{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 40px;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+#contact h3{
+    margin-bottom: 30px;
+}
+
+#contact h4{
+    margin-bottom: 30px;
+}
+
+ul img{
+    height: 20px;
+}
+
+form button{
+    border: none;
+    cursor: pointer;
+}
+
+footer{
+    background-color: rgb(3, 56, 124);
+    padding: 20px 0;
+    margin-top: 20px;
+    color: rgb(226, 226, 226);
+}
+
+form button:hover{
+    background-color: rgb(9, 102, 224);
+}
